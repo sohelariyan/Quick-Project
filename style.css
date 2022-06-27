@@ -1,0 +1,170 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+
+/*header section start*/
+.header{
+	width: 100%;
+	border-bottom: 1px solid; #eee;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 18px;
+
+}
+.menu ul li a{
+	line-height: 60px;
+	font-weight: 300;
+}
+/*header section end*/
+
+/*banner Section*/
+.banner{
+	width: 100%;
+	padding: 60px 0px;
+	text-align: center;
+}
+.banner-content h1{
+	font-size: 48px;
+	color:#0f2656;
+	line-height: 1.2;
+	margin-bottom: 16px;
+	font-weight: 600;
+
+}
+.banner-content span{
+	color: #008aff;
+}
+/*banner Section end*/
+
+/*projects and ideas start*/
+
+.projects{
+	width: 100%;
+	padding-bottom: 60px;
+}
+.projects-content{
+	display: flex;
+}
+.left, .right{
+	flex-basis: 50%;
+}
+.left{
+	text-align: right;
+}
+.left h2{
+	font-size: 42px;
+	color: #f15767
+}
+.left p{
+	font-weight: 400;
+	font-size: 16px;
+}
+.right h2{
+	font-size: 42px;
+	line-height: 1.2;
+	color: #0f2656;
+}
+.left{
+	margin-right: 16px;
+}
+.right{
+	margin-left: 16px;
+}
+/*projects and ideas end*/
+
+/*services section start*/
+.services{
+	width: 100%;
+	padding-bottom: 60px;
+}
+.services-content{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	column-gap: 22px;
+}
+.services-item{
+	padding: 40px 30px;
+}
+.si-1{
+	background-color: #fdebed;
+}
+.si-1:hover{
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.si-2{
+	background-color: #ebf9f4;
+}
+.si-2:hover{
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.si-3{
+	background-color: #fff7e8;
+}
+.si-3:hover{
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.services-content h5{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.services-content p{
+	font-weight: 400;
+	font-size: 16px;
+
+}
+/*services section end*/
+/*footer section start*/
+.footer{
+	width: 100%;
+	background-color: #008aff;
+	padding: 10px 0px;
+	text-align:center;
+}
+.footer p{
+	color: white;
+	font-weight: 300;
+	font-size: 14px;
+}
+.footer p span{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+ .footer i{
+ 	height: 40px;
+ 	width: 40px;
+ 	background: white;
+ 	text-align: center;
+ 	line-height: 40px;
+ 	border-radius: 100%;
+ 	margin: 10px 6px;
+ }
+ .footer i:hover{
+ 	background-color: tomato;
+ 	color: white;
+ 	transform: rotate(180deg);
+ 	transform: 0.5;
+ }
+/*footer section end*/
